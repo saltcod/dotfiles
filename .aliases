@@ -28,8 +28,7 @@ alias cleanterm='cd /private/var/log/asl/ && sudo rm *.asl && ht'
 alias mysql='/Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot'
 alias mysqldump='/Applications/MAMP/Library/bin/mysqldump --host=localhost -uroot -proot'
 alias gitwp='git clone https://github.com/markjaquith/WordPress.git'
-
-
+alias pubkey="cat ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
 
 
 # Server connections
