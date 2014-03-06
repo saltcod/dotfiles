@@ -23,7 +23,7 @@ alias oo="open ."
 
 
 # Extras
-alias wp='curl -O http://wordpress.org/latest.tar.gz'
+
 alias cleanterm='cd /private/var/log/asl/ && sudo rm *.asl && ht'
 alias mysql='/Applications/MAMP/Library/bin/mysql --host=localhost -uroot -proot'
 alias mysqldump='/Applications/MAMP/Library/bin/mysqldump --host=localhost -uroot -proot'
