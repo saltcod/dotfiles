@@ -1,5 +1,10 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH:/usr/local/bin"
+export PATH=/Applications/MAMP/bin/php/php5.5.10/bin:$PATH
+
+
+
+source ~/.profile
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -11,6 +16,10 @@ unset file
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob
+
+
+# Tab complete branch names in git
+test -f ~/.git-completion.bash && . $_
 
 # Append to the Bash history file, rather than overwriting it
 shopt -s histappend

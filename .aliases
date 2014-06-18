@@ -21,7 +21,7 @@ alias s="subl ."
 alias o="open"
 alias oo="open ."
 alias whatsize="du -hsc *"
- 
+alias mysql="/Applications/MAMP/Library/bin/mysql" 
 
 # Extras
 alias cleanterm='cd /private/var/log/asl/ && sudo rm *.asl && ht'
@@ -31,7 +31,7 @@ alias pubkey="cat ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pas
 
 # Server connections
 
-alias orange='ssh waterstr@thedrums.asmallorange.com'
+alias orange='ssh waterstr@moogle.asmallorange.com'
 alias ocean='ssh -p 8746 saltcod@107.170.55.68'
 alias water='ssh waterstr@patty.machighway.com'
 alias tarl='tar xvzf latest.tar.gz'
