@@ -2,9 +2,13 @@
 export PATH="$HOME/bin:$PATH:/usr/local/bin"
 export PATH=/Applications/MAMP/bin/php/php5.5.10/bin:$PATH
 
+[[ -s /Users/saltcod/.autojump/etc/profile.d/autojump.sh ]] && source /Users/saltcod/.autojump/etc/profile.d/autojump.sh
 
 
-source ~/.profile
+# Git branch tab complete
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
