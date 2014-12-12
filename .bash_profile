@@ -1,6 +1,5 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH:/usr/local/bin"
-export PATH=/Applications/MAMP/bin/php/php5.5.10/bin:$PATH
 
 [[ -s /Users/saltcod/.autojump/etc/profile.d/autojump.sh ]] && source /Users/saltcod/.autojump/etc/profile.d/autojump.sh
 
